@@ -29,3 +29,5 @@ console.log(iterator.current());
 while (iterator.hasNext()) {
   console.log(iterator.next());
 }
+
+// Can improve this by accepting an extra param so traverse from the end to start.
